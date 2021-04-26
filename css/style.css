@@ -815,7 +815,7 @@
     .header-mid {
         display: none;
     }
-    .header-left input {
+    .header-left .container-search {
         display: none;
     }
     .item4 {
