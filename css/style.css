@@ -795,3 +795,27 @@
     color: #D8CECB;
     margin-left: 12px;
 }
+
+@media (max-width: 1124px) {
+    .content-left {
+        display: none;
+    }
+    .content-mid {
+        width: 76%;
+    }
+}
+
+@media (max-width: 739px) {
+    .content-right {
+        display: none;
+    }
+    .content-mid {
+        width: 100%;
+    }
+    .header-mid {
+        display: none;
+    }
+    .header-left input {
+        display: none;
+    }
+}
